@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>netflix</title>
+    <script src="https://kit.fontawesome.com/fcdfbe2133.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    
+
+    <div id="bodyy">
+        <nav id="container-navbar">
+            <img id="netflix-logo" src="https://imgs.search.brave.com/7mb-IlMRODiTrpfLjtXyypwfqwkN3xTBozYuqCbcB1k/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4x/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvbG9nb3MtYnJh/bmRzLWluLWNvbG9y/cy83NTAwL05ldGZs/aXhfTG9nb19SR0It/NTEyLnBuZw"><img>
+            <div id="btn-container">
+                <button class="change-Languange"><i class="fa-solid fa-language"></i>
+                    <select id="lang-select" type="radio"><i class="fa-solid fa-language"></i>
+                        <option id="English" onclick="forEnglish()"><i class="fa-solid fa-language"></i>English</option>
+                        <option id="Hindi" onclick="forHindi()">हिंदी</option>
+                    </select>
+                </button>
+               <a id="btn-sign-a" href="Netflix Login page/index.html"> <button  onclick="login()" id="btn-sign" name="sign" type="button">Sign In</button></a>
+            </div>
+        </nav>
+        <div id="container">
+        
+       
+            <main>
+                <form onclick="return validationForm()" action="akashgupta01082002@gmail.com" name="form"  id="main-container" method="post" >
+                    <h2 id="text"><bold>Unlimited movies, TV shows and more</bold></h2>
+                    <p>Watch anywhere. Cancel anytime.</p>
+                    <h5 class="paraa">Ready to watch? Enter your email to create or restart your membership.</h5>
+                    <div id="login-container">
+                        
+                        <label for="login"></label>
+                        <input id="login" type="email" size="15"  placeholder=" Email address"></input>
+                        <button onclick="validation()"  class="btn-submit" type="button">Get Started  <i class="fa-solid fa-angle-right"></i></button>
+                        <span id="error"></span>
+                    </div>
+                </form>
+            </main>
+        </div>
+    </div>
+    
+
+        <hr>
+        <div class="pageOne">
+            <div class="rough"></div>
+            <div id="TV-container">
+                <div class="enjoyTV">
+                    <h1 class="EnjoyH1">Enjoy on your TV</h1>
+                    <h6 class="Xbox paraa-1">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h6>
+                </div>
+                <div class="video-container">
+                    <iframe  id="video" src="https://akash-gupta-git.github.io/Netflix-TV/" title="Netflix TV Sponsored by Akash Gupta" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+
+            </div>
+        </div>
+    <hr>
+    <div id="pageTwo">
+        <div class="rough"></div>
+        <div class="TV-container-2">
+            <div class="image-container">
+                <img id="img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg" title="Netflix TV Sponsored by Akash Gupta">
+               
+                <div id="loading-container">
+                    <img class="load-img" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" title="Netflix TV Sponsored by Akash Gupta">
+                        <div class="loading-text">
+                            <P class="load-text">Stranger Things</P>
+                            <P class="load-text loading">Downloading...</P>
+                        </div>
+                        <div class="Downloading-container">
+
+                            <div class="loading-br"></div>
+                                <div class="load-done">
+                                    <i class="fa-solid fa-check"></i>
+                                    <i class="fa-solid fa-arrow-down"></i>
+                                </div>
+                            
+                                <!-- <div id="circle"></div> -->
+                        </div>
+            </div>
+        </div>
+            <div class="enjoyTV">
+                <h1 class="EnjoyH1 Enjoy-2">Download your shows to watch offline</h1>
+                <h6 class="Xbox paraa-2">Save your favourites easily and always have something to watch.</h6>
+            </div>
+    </div>
+    </div>
+    <hr>
+    <div class="pageThree">
+        <div class="rough"></div>
+        <div id="TV-container-3">
+            <div class="enjoyTV">
+                <h1 class="EnjoyH1 Enjoy-3">Watch everywhere</h1>
+                <div class="Xbox-container">
+                    <h6 class="Xbox paraa-3">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h6>
+                </div>
+
+            </div>
+            <div class="video-container-3">
+                <img  id="everywhere-cont" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png" title="Netflix TV Sponsored by Akash Gupta" allowfullscreen></img>
+                <video id="bgVideo" autoplay muted loop src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"> </video>
+            </div>
+
+        </div>
+    </div>
+
+    <hr>
+    <div class="pageOne">
+        <div class="rough"></div>
+        <div id="TV-container">
+            <div class="enjoyTV">
+                <h1 class="EnjoyH1 Enjoy-4">Create profiles for children.</h1>
+                <h6 class="Xbox paraa-four">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</h6>
+            </div>
+            <div class="video-container">
+                <img  id="video" src="https://occ-0-2152-3647.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d" title="Netflix TV Sponsored by Akash Gupta" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></img>
+            </div>
+
+        </div>
+    </div>
+    <hr>  
+    <div class="pagefour">
+            <div class="rough"></div>
+        <div id="asking-container">
+            <h1 class="EnjoyH1 ask">Frequently Asked Questions</h1>
+            <div class="ask-boxes-container">
+                <div class="ask-container">
+        
+                        <input class="jaadu" type="radio" name="according" id="first">
+                        <label class="ask-font" for="first">What is Netflix?<h5 class="ask-fontPlus"><i class="fa-solid fa-plus"></i></h5>
+                        </label>
+                    <p class="paragraph paragraph1">Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.<br><br>
+                        You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
+                </div>
+            
+               
+                    
+
+
+         
+                <div class="ask-container">
+                    <input class="jaadu" type="radio" name="according" id="second">
+                    <label class="ask-font" for="second">How much does Netflix cost?<h5 class="ask-fontPlus"><i class="fa-solid fa-plus"></i></h5>
+
+                    </label>
+                    
+                            <p class="paragraph paragraph2">Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no contracts.</p>
+            
+                </div>
+    
+          
+                <div class="ask-container">
+                    <input class="jaadu" type="radio" name="according" id="third">
+                                <label class="ask-font" for="third">Where can I watch?<h5 class="ask-fontPlus"><i class="fa-solid fa-plus"></i></h5>
+                                </label>
+                               
+                                    <p class="paragraph paragraph3">Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.<br>You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p>
+                        
+                </div>
+          
+                <div class="ask-container">
+                    <input class="jaadu" type="radio" name="according" id="fourth">
+                    <label class="ask-font" for="fourth">How do I cancel?<h5 class="ask-fontPlus"><i class="fa-solid fa-plus"></i></h5>
+
+                    </label>
+                    
+                        <p class="paragraph paragraph4">Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+                   
+        
+                </div>
+          
+                <div class="ask-container">
+                    <input class="jaadu" type="radio" name="according" id="fifth">
+                                <label class="ask-font" for="fifth">What can I watch on Netflix?<h5 class="ask-fontPlus"><i class="fa-solid fa-plus"></i></h5>
+
+                                </label>
+                            
+                                    <p class="paragraph paragraph5">Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p>
+                                
+                </div>
+                <div class="ask-container">
+                  
+                    <input class="jaadu"  type="radio" name="according" id="sixth">
+                    <label class="ask-font" for="sixth">Is Netflix good for kids?<h5 class="ask-fontPlus"><i class="fa-solid fa-plus"></i></h5>
+
+                    </label>
+                    
+                        <p class="paragraph paragraph6">The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.<br><br>
+
+                            Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</p>
+              
+                </div>
+            </div>                    
+            
+            
+        </div>
+    </div>
+    
+    
+    <footer>
+        <div class="footer-container-final">
+            <div class="login-footer">
+                <P class="last-read">Ready to watch? Enter your email to create or restart your membership.</P>
+                <label for="login-2"></label>
+                <input id="login-2" type="email" size="15"  placeholder=" Email address"></input>
+                <button onclick="validation()"  class="btn-submit btn-submit-2" type="button">Get Started  <i class="fa-solid fa-angle-right"></i></button>
+                <P class="last-p call">Questions? Call 000-800-919-1694</P>
+            </div>
+        </div>  
+        <div class="fourDiv-container">
+
+            <div class="fourDiv">
+                <a><p class="last-p">FAQ</p></a>
+                <a><p class="last-p">Investor Relations</p></a>
+                            <a><p class="last-p">Privacy</p></a>
+                            <a><p class="last-p">Speed Test</p></a>
+                        </div>
+                        <div class="fourDiv">
+                            <a><p class="last-p">
+                                Help Centre</p></a>
+                            <a><p class="last-p">Jobs</p></a>
+                            <a><p class="last-p">Cookie Preferences</p></a>
+                            <a><p class="last-p">Legal Notices</p></a>
+                        </div>
+                        <div class="fourDiv">
+                            <a><p class="last-p">Account</p></a>
+                            <a><p class="last-p">Ways to Watch</p></a>
+                            <a><p class="last-p">Corporate Information</p></a>
+                            <a><p class="last-p">Only on Netflix</p></a>
+                        </div>
+                        <div class="fourDiv">
+                            <a><p class="last-p">Media Centre</p></a>
+                            <a><p class="last-p">Terms of Use</p></a>
+                            <a><p class="last-p">Contact Us</p></a>
+                            
+                        </div>
+                        
+                    </div>
+                    <div class="final-language">
+
+                        <button class="change-Languange"><i class="fa-solid fa-language"></i>
+                            <select id="lang-select" type="radio"><i class="fa-solid fa-language"></i>
+                                <option id="English" value="English" onclick="forEnglish()"><i class="fa-solid fa-language"></i>English</option>
+                                <option id="Hindi" value="hindi" onclick="forHindi()">हिंदी</option>
+                            </select>
+                        </button>
+                        <p class="Sponsored">Netflix India</p>
+                        <p class="Sponsored">Sponsored by Akash Gupta</p>
+
+                    </div>    
+                        
+
+
+    
+</footer>
+
+        
+
+
+            <script src="script.js"></script>
+    </body>
+    </html>
