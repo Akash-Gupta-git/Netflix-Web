@@ -1,0 +1,171 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+#joBhirkhnaHai {
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 15px -20px 200px 150px rgba(0, 0, 0, 0.9);
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/20bf1f4d-1c73-48fd-8689-310d6dd80efc/81bdc063-cb8f-4afe-8a02-a3131ca4ef5e/IN-en-20240812-POP_SIGNUP_TWO_WEEKS-perspective_WEB_7998f3b6-63e3-424a-8328-550cf777ddce_small.jpg");
+}
+.container {
+    width: 450px;
+    height: 600px;
+    
+    padding: 0vw 16px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 60px 1px rgb(32, 32, 32);
+    color: white;
+    /* z-index: 2; */
+    
+}
+.form-container {
+}
+h1 {
+font-size: 45px;
+
+padding: 20px;
+font-weight: 900;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: white;
+}
+
+#pswd,
+#login {
+width: 85%;
+height: 60px;
+padding: 5px;
+font-size: 16px; 
+border: 1px solid rgba(207, 202, 202, 0.8);
+border-radius: 9px;
+background-color: transparent;
+margin-left: 20px;
+margin-bottom: 10px;
+color: rgb(207, 203, 203);
+display: flex;
+justify-content: start;
+align-items: center;
+}
+#submit {
+width: 85%;
+height: 45px;
+padding: 5px;
+font-size: 16px; 
+border: none;
+border-radius: 9px;
+background-color: transparent;
+margin-left: 20px;
+/* margin-bottom: 10px; */
+color: rgb(207, 203, 203);
+background-color: red;
+
+}    
+#signInCode {
+width: 85%;
+height: 55px;
+padding: 5px;
+font-size: 16px; 
+border: none;
+border-radius: 9px;
+background-color: transparent;
+margin-left: 20px;
+margin-bottom: 1vw;
+background-color: rgba(41, 40, 40, 0.8);
+color: rgb(207, 203, 203);
+}
+.or {
+text-align: center;
+font-size: 18px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding: 10px 0px;
+}
+.forget {
+text-align: center;
+color: white;
+text-decoration: none;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 18px;
+}
+.forget:hover {
+text-decoration: underline;
+}
+#checkboxx {
+width: 19px; 
+height: 19px;
+margin: 0px 2px  15px 0px;
+transform: translateY(2px);
+border: 1px solid rgba(207, 202, 202, 0.8);
+}
+
+
+.signup {
+display: flex;
+justify-content: center;
+flex-direction: column;;
+}
+#footer {
+
+
+padding: 10px 26px;
+}
+#footer >.signup {
+font-size: 16px;
+display:block;
+/* justify-content: center; */
+text-decoration: none;
+color: white;
+}
+#footer>.signup>a {
+
+}
+.learnMore {
+font-size: 14px;
+padding: 5px 20px;
+}
+
+.last-footer {
+background-color: black;
+display: flex;
+justify-content: start;
+align-items: start;
+margin: 50px;
+flex-wrap: wrap;
+color: white;
+gap : 30px;
+}
+.last-footer .ancar {
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: space-evenly;
+/* margin: 20px; */
+flex-wrap: wrap;
+
+}
+.last-footer>.ancar >a,
+.last-footer>a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 14px;
+     text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+
+.last-footer>.ancar >a:hover,
+.last-footer>a:hover,
+a:hover {
+    text-decoration: underline;
+}
+
+
